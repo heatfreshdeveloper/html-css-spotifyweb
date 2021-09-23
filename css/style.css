@@ -71,6 +71,22 @@ body {
     padding-left: 10px;
 }
 
+.playbar-song {
+    justify-content: center;
+}
+
+.playbar-song-interface {
+    padding: 10px 0;
+}
+
+.playbar-song-icons {
+    padding: 0 15px;
+}
+
+.playbar-song-icons i {
+    font-size: 30px;
+}
+
 /* Sezione main content*/
 
 .main-content-albums {
