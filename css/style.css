@@ -175,6 +175,24 @@ body {
     color: white;
 }
 
+.main-content-albums-navbar {
+    height: 60px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-albums-navbar li {
+    list-style: none;
+}
+
+.main-content-albums-navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
 /* Sezione sidebar*/
 
 .main-content-sidebar {
