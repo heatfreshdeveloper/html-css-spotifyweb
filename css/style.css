@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+main {
+    overflow: hidden;
+}
+
 
 /******* Selettori classi *******/
 
@@ -152,6 +156,7 @@ body {
 /* Sezione main content*/
 
 .main-content-albums {
+    flex-direction: column;
     width: auto;
     flex-grow: 1;
     height: 100%;
@@ -176,9 +181,7 @@ body {
 }
 
 .main-content-albums-navbar {
-    height: 60px;
     width: 100%;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
