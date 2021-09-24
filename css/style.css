@@ -122,6 +122,33 @@ body {
     left: 0;
 }
 
+.volume-song {
+    flex-direction: row;
+    align-items: center;
+}
+
+.volume-song i {
+    padding: 0 10px;
+}
+
+.last-playbar {
+    height: 5px;
+    width: 85px;
+    background-color: #5a5a5a;
+    border-radius: 25px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.last-progress-playbar {
+    width: 35px;
+    height: 5px;
+    background-color: #c1c1c1;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+}
+
 /* Sezione main content*/
 
 .main-content-albums {
