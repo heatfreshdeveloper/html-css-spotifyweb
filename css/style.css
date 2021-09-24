@@ -72,19 +72,54 @@ body {
 }
 
 .playbar-song {
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .playbar-song-interface {
-    padding: 10px 0;
+    padding: 10px 0px;
+    height: 50px;
 }
 
 .playbar-song-icons {
-    padding: 0 15px;
+    padding: 0 35px;
 }
 
 .playbar-song-icons i {
     font-size: 30px;
+    padding: 0 20px;
+}
+
+.playbar-song-bar {
+    height: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.playbar-song-bar > div:nth-child(odd) {
+    color: #c1c1c1;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.playbar-song-bar > div:nth-child(2) {
+    height: 5px;
+    padding: 0 180px;
+    background-color: #5a5a5a;
+    margin-top: 6px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.playbar-grey {
+    width: 75px;
+    height: 5px;
+    background-color: #c1c1c1;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
 }
 
 /* Sezione main content*/
