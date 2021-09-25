@@ -160,11 +160,12 @@ main {
     width: auto;
     flex-grow: 1;
     height: 100%;
+    overflow: auto;
 }
 
 .main-content-albums-upgrade {
-    height: 80px;
-    min-width: 100%;
+    min-height: 80px;
+    width: 100%;
     background-color: #080B12;
     text-align: right;
     justify-content: flex-end;
@@ -185,6 +186,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .main-content-albums-navbar li {
@@ -206,10 +208,360 @@ main {
     margin: auto;
 }
 
+.main-content-albums-played {
+    width: 100%;
+    flex-direction: column;
+}
+
+.title-played {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.heavy-metal {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.heavy-metal-image {
+    text-align: center;
+}
+
+.heavy-metal-image img {
+    width: 100%;
+}
+
+.heavy-metal-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.heavy-metal-title a:nth-child(1) {
+    text-decoration: none;
+    color: white;
+}
+
+.heavy-metal-title a:nth-child(2) {
+    text-decoration: none;
+    color: #878787;
+    font-size: 12px;
+}
+
+.stranger-things {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.stranger-things-image {
+    text-align: center;
+}
+
+.stranger-things-image img {
+    width: 100%;
+}
+
+.stranger-things-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.stranger-things-title a:nth-child(1) {
+    text-decoration: none;
+    color: white;
+}
+
+.stranger-things-title a:nth-child(2) {
+    text-decoration: none;
+    color: #878787;
+    font-size: 12px;
+}
+
+.quiet-place {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.quiet-place-image {
+    text-align: center;
+}
+
+.quiet-place-image img {
+    width: 100%;
+}
+
+.quiet-place-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.quiet-place-title a:nth-child(1) {
+    text-decoration: none;
+    color: white;
+}
+
+.quiet-place-title a:nth-child(2) {
+    text-decoration: none;
+    color: #878787;
+    font-size: 12px;
+}
+
+.split {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.split-image {
+    text-align: center;
+}
+
+.split-image img {
+    width: 100%;
+}
+
+.split-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.split-title a:nth-child(1) {
+    text-decoration: none;
+    color: white;
+}
+
+.split-title a:nth-child(2) {
+    text-decoration: none;
+    color: #878787;
+    font-size: 12px;
+}
+
+.cure {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.cure-image {
+    text-align: center;
+}
+
+.cure-image img {
+    width: 100%;
+}
+
+.cure-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.cure-title a:nth-child(1) {
+    text-decoration: none;
+    color: white;
+}
+
+.cure-title a:nth-child(2) {
+    text-decoration: none;
+    color: #878787;
+    font-size: 12px;
+}
+
+.sinister {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.sinister-image {
+    text-align: center;
+}
+
+.sinister-image img {
+    width: 100%;
+}
+
+.sinister-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sinister-title a:nth-child(1) {
+    text-decoration: none;
+    color: white;
+}
+
+.sinister-title a:nth-child(2) {
+    text-decoration: none;
+    color: #878787;
+    font-size: 12px;
+}
+
+.main-content-albums-playlist {
+    width: 100%;
+    flex-direction: column;
+}
+
+.albums-playlist-title {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.albums-playlist-subtitle {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.albums-playlist-subtitle p {
+    color: #878787;
+    font-size: 12px;
+}
+
+.release-radar {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.release-radar-image {
+    text-align: center;
+}
+
+.release-radar-image img {
+    width: 100%;
+}
+
+.release-radar-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.release-radar-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.daily-mix {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.daily-mix-image {
+    text-align: center;
+}
+
+.daily-mix-image img {
+    width: 100%;
+}
+
+.daily-mix-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.daily-mix-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content-albums-artist {
+    width: 100%;
+    flex-direction: column;
+}
+
+.albums-artist-title {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.albums-artist-subtitle {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.albums-artist-subtitle p {
+    color: #878787;
+    font-size: 12px;
+}
+
+.lana-del-rey {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.lana-del-rey-image {
+    text-align: center;
+}
+
+.lana-del-rey-image img {
+    width: 100%;
+}
+
+.lana-del-rey-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.lana-del-rey-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.ludovico-einaudi {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.ludovico-einaudi-image {
+    text-align: center;
+}
+
+.ludovico-einaudi-image img {
+    width: 100%;
+}
+
+.ludovico-einaudi-title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.ludovico-einaudi-title a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Sezione sidebar*/
 
 .main-content-sidebar {
-    width: 250px;
+    max-width: 250px;
     height: 100%;
     background-color: #000000;
     flex-direction: column;
